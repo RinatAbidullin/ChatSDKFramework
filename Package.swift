@@ -9,15 +9,15 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "ChatSDK",
-            targets: ["ChatSDK"]
+            name: "ChatSDK2",
+            targets: ["ChatSDK2"]
         )
     ],
     targets: [
         .binaryTarget(
-            name: "ChatSDK",
-            url: "https://github.com/RinatAbidullin/ChatSDKFramework/releases/download/0.0.3/ChatSDK.xcframework.zip",
-            checksum: "9577c47037787adf4d158efe611103c66dbfc9cec8a813d37cb4184754c2b48c"
+            name: "ChatSDK2",
+            url: "https://github.com/RinatAbidullin/ChatSDKFramework/releases/download/0.0.4/ChatSDK2.xcframework.zip",
+            checksum: "08203811f9edf9ff280d1d4791441a6f62dea0fd9995bdbfd29eaeeaf0c7d108"
         )
     ]
 )
